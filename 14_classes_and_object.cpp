@@ -1,5 +1,5 @@
 #include<iostream>
-#include<string.h>
+#include<cstring>
 using namespace std;
 
 class animal
@@ -7,6 +7,7 @@ class animal
 
     private:
         int legs=0;
+        
 
         char colour[10]="Black";
         char *c_ptr=colour;
@@ -45,8 +46,11 @@ int main()
     animal dog;
     char acolour[10]="off-white";
     char atype[15]="omnivorous";
+    
     dog.set_animal_data(4,acolour,atype);
     dog.print_data();
+
+  
 
     
     return 0;
