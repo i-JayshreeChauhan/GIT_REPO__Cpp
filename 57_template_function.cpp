@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-template <class t1 , class t2>
+template <typename t1 , typename t2>
 float avg(t1 x,t2 y)
 {
     return (x+y)/2;

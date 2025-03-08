@@ -68,7 +68,7 @@ int main()
 
     //list<int> :: iterator it = l2.begin();                 // u can use this as well --> auto it = l2.begin(); 
     auto it = l2.begin();
-    advance(it,3);     //takes the pointer to the 3rd position
+    advance(it,3);     //takes the iterator to the 3rd position
 
     l2.erase(it);
     display(l2);
